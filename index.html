@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>k
+<head>
+	<title>hi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="home">
+	<nav>
+		<h1 id="namaPendek"></h1>
+		<ul>
+			<li> <a href="#home">home </a></li>
+			<li> <a href="#about">about </a></li>
+			<li> <a href="#portfolio">portfolio </a></li>
+			<li> <a href="#contact">contact </a></li>
+		</ul>
+	</nav>
+	<main>
+		<section class="firstSection">
+			<div class="gambar"></div>
+			<h1 id="namaPanjang"></h1>
+			<p>fullStack web developer</p>
+		</section>
+		<!--  -->
+		<section class="secondSetion" id="about">
+			<div class="kiri">
+			<div class="gambar"></div>
+			</div>
+			<!--  -->
+			<div class="kanan">
+				<h1>Hi I'm <span class="namasaya"></span></h1>
+				<p>saya seorang siswa smk di smk 2 padang panjang saya berumur 17 tahun , saya suka apasaja kecuali kucing mintak makan</p>
+			</div>
+		</section>
+		<!--  -->
+
+
+
+		<section class="thirdSection" id="portfolio">
+			<h1 align="center">portfolio</h1>
+			<div class="container">
+				<div class="kotak"></div>
+				<div class="kotak"></div>
+				<div class="kotak"></div>
+				<div class="kotak"></div>
+				<div class="kotak"></div>
+				<div class="kotak"></div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<h1 align="center">contact</h1>
+			<div class="container">
+				<form>
+					<label for="username">Username*</label>
+					<input type="text" name="text" id="username" placeholder="username"><br>
+
+					<label for="email">email*</label>
+					<input type="email" name="text" id="email" placeholder="email "><br>
+
+					<textarea placeholder="masukan pesan anda"></textarea><br>
+					<input type="submit" name="kirim" >
+
+				</form>
+			</div>	
+		</section>
+	</main>
+
+
+	<footer>
+		<div class="link">
+			<a id="home">home</a>
+			<a id="about">about</a>
+			<a id="portfolio">portfolio</a>
+			<a id="contact">contact</a>
+		</div>
+		<hr>
+		<p align="center">creat by <span class="creatby"></span></p>
+	</footer>
+
+
+	<script type="text/javascript">
+		const namaPendek = document.querySelector('#namaPendek');
+		const panjang = document.querySelector('#panjang');
+		const namasaya = document.querySelector('.namasaya');
+		const dibuat = document.querySelector('.creatby');
+
+		let namasingkat = prompt('masukan nama panggilan kamu');
+		let namasemua = prompt('masukan nama panjang kamu');
+		namaPendek.innerHTML = namasingkat;
+		namaPanjang.innerHTML = namasemua; 
+		namasaya.innerHTML = namasemua; 
+		dibuat.innerHTML = namasemua; 
+	</script>
+</body>
+</html>

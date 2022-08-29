@@ -1,0 +1,155 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	scroll-behavior:smooth;
+	margin: 0;
+	padding:0;
+	overflow-x: hidden; 
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+	background: blueviolet;
+	align-items: center;
+	height: 50px;
+	position: sticky;
+	top:0;
+}
+nav h1{
+	color: white;
+	font-family: arial;
+}
+ul{
+	display: flex;
+	justify-content: space-evely;
+	align-items: center;
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	color: white; 
+	font-family: arial;
+	margin: 0 10px;
+	color: white;
+	text-transform: capitalize;
+}
+li:hover{
+	cursor: pointer;
+}
+
+.firstSection{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.gambar{
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: #3e3e3e;
+	border-radius: 50%;
+	margin-bottom: -10px;
+}
+.firstSection p{
+	margin-top: -10px;
+}
+
+
+
+/*section ke dua*/
+
+.secondSetion{
+	background-color: blueviolet;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 80px 0px;
+	padding:  0 30px;
+	color: white;
+	height: 300px;
+}
+.kiri{
+	width: 40vw;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-right: 30px;
+	margin-top: -70px;
+}
+.kanan{
+	width: 50vw;
+}
+.namasaya{
+	color: white;
+}
+
+
+
+.thirdSection{
+
+}
+.thirdSection .container{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.kotak{
+	width: 400px;
+	height: 200px;
+	background-color: #3e3e3e;
+	margin-top: 30px;
+}
+
+.contact{
+	margin-top: 100px;
+}
+.contact .container form{
+	margin-top: 50px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+input{
+	padding: 10px 30px;
+}
+textarea{
+	padding: 20px 70px;
+}
+
+
+footer{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: blueviolet;
+	height: 200px;
+	width: 100%;
+}
+.link{
+	text-transform: capitalize;
+	color: white;
+	font-size: 1.15rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px; 	
+}
+hr{
+	background-color: white;
+	width: 100vw;
+	margin:20px 0; 
+}
+footer p{
+	color: white;
+	font-size: 1.15rem;
+	font-family: cursive 	;
+
+}
